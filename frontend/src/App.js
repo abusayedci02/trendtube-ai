@@ -81,7 +81,7 @@ function App() {
     try {
 
       const response = await axios.post(
-        "https://trendtube-ai-backend.onrender.com",
+        "https://trendtube-ai-backend.onrender.com/login",
         {
           email,
           password,
