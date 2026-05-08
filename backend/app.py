@@ -21,7 +21,7 @@ from reportlab.lib.styles import getSampleStyleSheet
 
 app = Flask(__name__)
 
-CORS(app, resources={r"/*": {"origins": "*"}})
+CORS(app)
 
 # MongoDB Connection
 client = MongoClient("mongodb+srv://abiway880:abiway123@cluster0.8qpkfjs.mongodb.net/")
