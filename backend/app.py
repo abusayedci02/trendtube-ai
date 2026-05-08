@@ -24,7 +24,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
 
 # MongoDB Connection
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb+srv://abiway880:abiway123@cluster0.8qpkfjs.mongodb.net/")
 
 db = client["trendtube_ai"]
 
